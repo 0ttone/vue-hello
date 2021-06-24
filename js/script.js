@@ -10,9 +10,20 @@ const app = new Vue(
           data: {
               text:'funziona sta pagina?',
               answer: '',
+
           
           
           
+            },
+
+            methods: {
+                  message: function (){
+                        alert(`La risposta è ${this.answer}`)
+                  },
+
+
+
+
             }
 
        } 

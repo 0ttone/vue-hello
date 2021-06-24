@@ -14,7 +14,10 @@
             <h1>{{text}}</h1>
 
             <input v-model="answer" placeholder="si o no?">
+            <!-- di fianco al campo input stampa inserimento -->
             <span>{{answer}}</span>
+            <!-- micro bottone che riporta la risposta in alert -->
+            <button @click='message'></button>
             <div></div>
 
 
