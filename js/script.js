@@ -1,3 +1,5 @@
+Vue.config.devtools = true;
+
 
 /*Descrizione: Stampare a schermo un messaggio all’interno di un h1, utilizzando i data.*/
 
@@ -10,6 +12,9 @@ const app = new Vue(
           data: {
               text:'funziona sta pagina?',
               answer: '',
+              inSrc: './img/imgCielo.jpg',
+
+
 
           
           
